@@ -2,10 +2,14 @@
   <div class="row">
     <h1>Programação</h1>
 
-    <p class="schedule-description">08/09 - Palestras | 10 - Sprints</p>
+    <p class="schedule-description">07/09 - DjangoGirls | 08-09/09 - Palestras | 10/09 - Sprints</p>
 
     <nav class="days">
       <ul class="list">
+        <li class="item">
+          <a href="#day00" class="item-link active">08/09</a>
+        </li>
+
         <li class="item">
           <a href="#day01" class="item-link active">08/09</a>
         </li>
@@ -20,6 +24,8 @@
       </ul>
     </nav>
 
+    {% include _day00.html %}
+    
     {% include _day01.html %}
 
     {% include _day02.html %}
